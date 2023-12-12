@@ -1,0 +1,132 @@
+#header-pt {
+    font-size: 11px;
+}
+#pict {
+    width: 90px;
+    height: 90px;
+}
+#p1 {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+#p2 {
+    margin-left:3px;
+}
+#table-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: -0.3;
+    
+}
+#prepared {
+    position: absolute;
+    top: -4;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 69%;
+}
+#checked {
+    position: absolute;
+    top: -4;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 80.3%;
+}
+#approved {
+    position: absolute;
+    top: -4;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 91%;
+}
+#alamat_{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-right: 18%;
+    /* margin-bottom:  */
+}
+
+#prepared-foot {
+    position: absolute;
+    top: 6.2%;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 68.5%;
+}
+
+#checked-foot {
+    position: absolute;
+    top: 6.2%;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 80.3%;
+}
+
+#approved-foot {
+    position: absolute;
+    top: 6.2%;
+    /* right: 0; */
+    margin-top: 0;
+    margin-right: -0.3;
+    margin-left: 91.4%;
+}
+
+
+td, th {
+    font-size: 11px;
+}
+li {
+    font-size: 11px;
+}
+#table-avg {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    margin-right: -0.3%;
+}
+#kotak {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    margin-left: 65%;
+    margin-top: 7%;
+    margin-right: -0%;
+}
+#persegikecil {
+    width:248px; 
+    height:20px;
+    background-color: white;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+
+#persegi {
+    width:248px; 
+    height:40px;
+    background-color: white;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    
+    
+}
+#table-freq {
+    margin-left: 40px;
+}
+
+
+
+

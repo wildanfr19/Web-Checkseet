@@ -1,0 +1,172 @@
+.bg-blue {
+    background-color: #1f6596;
+}
+.bg-grey {
+    background-color: #d5d9dc;
+}
+
+
+.card-header {
+    background-color: #1f6596;
+}
+
+.card-header-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+
+.dashed-border {
+    border: dashed 2px #6c757d;
+    background-color: #f1f1f1;
+}
+
+.display-table{
+    display: table;
+}
+.display-table-cell{
+    display: table-cell;
+}
+.vertical-center {
+    vertical-align: middle !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+.align-left {
+    text-align: left !important;
+}
+.align-center {
+    text-align: center !important;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+.btn-template {
+    color: #fff;
+    background-color: #107896;
+    border-color: #107896;
+    text-decoration: none;
+}
+
+.btn-template:hover {
+    color: #fff;
+    background-color: #3c6478;
+    border-color: #3c6478;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.sticky-card {
+    border-radius: 0;
+    box-shadow: 0px 10px 10px 0px rgba(182, 186, 188, 0.5);
+}
+
+.div-sticky {
+    position: 'fixed';
+    z-index:   1;
+    top:       '0px';
+    width:     '100%';
+}
+
+.modal-30{
+    max-width: 30%;
+}
+
+.modal-80{
+    max-width: 80%;
+}
+
+.text-bold{
+    font-weight: bold;
+
+}
+
+/* Bootstrap Override */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #1f6596 !important;
+}
+
+
+/* Select2 Override */
+.select2-selection__rendered {
+    line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+
+/* Input Override */
+.tms-input {
+    background-color: #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #6c757d;
+    border-radius: 0px;
+}
+
+.tms-input:focus {
+    border-bottom: 3px solid #1f6596;
+}
+
+
+
+
+/*
+*   ===================================================
+*       TMS | PORTAL   
+*   ===================================================
+*/
+
+.module-icon {
+    width: 80px;
+    transition: ease 0.3s;
+}
+
+.module-icon-datatable {
+    width: 80px;
+}
+
+.module-icon-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.module-icon:hover {
+    width: 85px;
+    -webkit-filter: drop-shadow(5px 5px 5px #cbcbcb);
+    filter: drop-shadow(5px 5px 5px #cbcbcb);
+
+    transition: ease 0.3s;
+}
+
+.icon-container {
+    height: 90px;
+}
+
+/* Custom Loading Icon */
+
+.custom-preloader-70 {
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center;
+}
+
+.custom-preloader-140 {
+    min-width: 140px;
+    max-width: 140px;
+    text-align: center;
+}
