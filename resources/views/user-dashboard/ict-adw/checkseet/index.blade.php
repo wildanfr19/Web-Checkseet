@@ -148,6 +148,7 @@ $(document).on('click','#view-items', function(e){
                     processing: true,
                     ajax: route,
 					searching: false,
+					responsive: true,
 					order: [[1, 'asc']],
                     columns: [
 						{
@@ -480,7 +481,7 @@ $(document).on('click','#deleted-items-data', function(e){
 	let approve_head = $(this).attr('row-approve-head');
     let approve_ict = $(this).attr('row-id');
 	let route = $(this).attr('data-href');
-	if (approve_ict == "" && approve_ict !== "") {
+	if (approve_ict == "") {
 		Swal.fire({
 			title: 'Are you sure?',
 			text: 'Delete this data',

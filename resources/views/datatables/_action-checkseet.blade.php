@@ -16,7 +16,7 @@
           type="button"> <i class="fa fa-edit" aria-hidden="true"></i> Edit</a>
       <a href ="#" 
          class="dropdown-item"
-         data-href="{{ $deleted }}"
+         {{-- data-href="{{ $deleted }}" --}}
          data-id="{{ $model->id }}" 
          row-id="{{ $model->approve_date_1 }}"  
          row-approve-users="{{ $model->approve_date_2 }}"
